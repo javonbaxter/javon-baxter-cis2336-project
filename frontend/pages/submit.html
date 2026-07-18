@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ArtConnect | Submit Artwork</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+<nav class="navbar">
+
+
+<h1 class="logo">
+ArtConnect
+</h1>
+
+
+<ul class="nav-links">
+
+<li><a href="../index.html">Home</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="events.html">Events</a></li>
+
+<li><a href="submit.html">Submit Artwork</a></li>
+
+<li><a href="faq.html">FAQ</a></li>
+
+<li><a href="references.html">References</a></li>
+
+</ul>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+<main>
+
+
+<section class="form-section">
+
+
+<h2>
+Artist Submission Form
+</h2>
+
+
+<p>
+Artists can submit their artwork information below.
+</p>
+
+
+
+
+<form id="artist-form">
+
+
+<label>
+Artist Name:
+</label>
+
+<input type="text" id="artistName" required>
+
+
+
+
+<label>
+Email Address:
+</label>
+
+<input type="email" id="email" required>
+
+
+
+
+<label>
+Artwork Title:
+</label>
+
+<input type="text" id="artTitle" required>
+
+
+
+
+<label>
+Category:
+</label>
+
+
+<select id="category" required>
+
+<option value="">
+Select Category
+</option>
+
+<option>
+Painting
+</option>
+
+<option>
+Digital Art
+</option>
+
+<option>
+Photography
+</option>
+
+<option>
+Sculpture
+</option>
+
+</select>
+
+
+
+
+<label>
+Price:
+</label>
+
+<input type="number" id="price" required>
+
+
+
+
+<label>
+Artwork Description:
+</label>
+
+
+<textarea id="description" required></textarea>
+
+
+
+
+<button type="submit">
+Submit Artwork
+</button>
+
+
+<p id="form-message"></p>
+
+
+</form>
+
+
+
+</section>
+
+
+</main>
+
+
+
+
+<footer>
+
+<p>
+© 2026 ArtConnect
+</p>
+
+</footer>
+
+
+
+<script src="../js/script.js"></script>
+
+
+</body>
+
+
+</html>
