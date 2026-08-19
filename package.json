@@ -1,0 +1,21 @@
+{
+  "name": "javon-baxter-cis2336-project",
+  "version": "1.0.0",
+  "description": "ArtConnect is a web application designed to help beginner and professional artists showcase artwork, promote events, and connect with art enthusiasts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javonbaxter/javon-baxter-cis2336-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/javonbaxter/javon-baxter-cis2336-project/issues"
+  },
+  "homepage": "https://github.com/javonbaxter/javon-baxter-cis2336-project#readme"
+}
