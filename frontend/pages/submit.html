@@ -3,190 +3,184 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ArtConnect | Submit Artwork</title>
+    <title>ArtConnect | Submit Artwork</title>
 
-<link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
-
-
 <body>
 
+    <header>
 
+        <nav class="navbar">
 
-<header>
+            <h1 class="logo">
+                ArtConnect
+            </h1>
 
-<nav class="navbar">
+            <ul class="nav-links">
 
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
 
-<h1 class="logo">
-ArtConnect
-</h1>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
 
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
 
-<ul class="nav-links">
+                <li>
+                    <a href="submit.html">Submit Artwork</a>
+                </li>
 
-<li><a href="../index.html">Home</a></li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
 
-<li><a href="gallery.html">Gallery</a></li>
+                <li>
+                    <a href="references.html">References</a>
+                </li>
 
-<li><a href="events.html">Events</a></li>
+            </ul>
 
-<li><a href="submit.html">Submit Artwork</a></li>
+        </nav>
 
-<li><a href="faq.html">FAQ</a></li>
+    </header>
 
-<li><a href="references.html">References</a></li>
 
-</ul>
+    <main>
 
+        <section class="form-section">
 
-</nav>
+            <h2>
+                Artist Submission Form
+            </h2>
 
-</header>
+            <p>
+                Artists can submit their artwork information below.
+            </p>
 
 
+            <form id="artist-form">
 
+                <label for="artist-name">
+                    Artist Name:
+                </label>
 
+                <input
+                    type="text"
+                    id="artist-name"
+                    required
+                >
 
-<main>
 
+                <label for="email">
+                    Email Address:
+                </label>
 
-<section class="form-section">
+                <input
+                    type="email"
+                    id="email"
+                    required
+                >
 
 
-<h2>
-Artist Submission Form
-</h2>
+                <label for="art-title">
+                    Artwork Title:
+                </label>
 
+                <input
+                    type="text"
+                    id="art-title"
+                    required
+                >
 
-<p>
-Artists can submit their artwork information below.
-</p>
 
+                <label for="category">
+                    Category:
+                </label>
 
+                <select id="category" required>
 
+                    <option value="">
+                        Select Category
+                    </option>
 
-<form id="artist-form">
+                    <option value="Painting">
+                        Painting
+                    </option>
 
+                    <option value="Digital Art">
+                        Digital Art
+                    </option>
 
-<label>
-Artist Name:
-</label>
+                    <option value="Photography">
+                        Photography
+                    </option>
 
-<input type="text" id="artistName" required>
+                    <option value="Sculpture">
+                        Sculpture
+                    </option>
 
+                </select>
 
 
+                <label for="price">
+                    Price:
+                </label>
 
-<label>
-Email Address:
-</label>
+                <input
+                    type="number"
+                    id="price"
+                    min="0"
+                    step="0.01"
+                    required
+                >
 
-<input type="email" id="email" required>
 
+                <label for="description">
+                    Artwork Description:
+                </label>
 
+                <textarea
+                    id="description"
+                    required
+                ></textarea>
 
 
-<label>
-Artwork Title:
-</label>
+                <button type="submit">
+                    Submit Artwork
+                </button>
 
-<input type="text" id="artTitle" required>
 
+                <p id="form-message"></p>
 
+            </form>
 
+        </section>
 
-<label>
-Category:
-</label>
+    </main>
 
 
-<select id="category" required>
+    <footer>
 
-<option value="">
-Select Category
-</option>
+        <p>
+            © 2026 ArtConnect
+        </p>
 
-<option>
-Painting
-</option>
+    </footer>
 
-<option>
-Digital Art
-</option>
 
-<option>
-Photography
-</option>
-
-<option>
-Sculpture
-</option>
-
-</select>
-
-
-
-
-<label>
-Price:
-</label>
-
-<input type="number" id="price" required>
-
-
-
-
-<label>
-Artwork Description:
-</label>
-
-
-<textarea id="description" required></textarea>
-
-
-
-
-<button type="submit">
-Submit Artwork
-</button>
-
-
-<p id="form-message"></p>
-
-
-</form>
-
-
-
-</section>
-
-
-</main>
-
-
-
-
-<footer>
-
-<p>
-© 2026 ArtConnect
-</p>
-
-</footer>
-
-
-
-<script src="../js/script.js"></script>
-
+    <script src="../js/script.js"></script>
 
 </body>
-
 
 </html>

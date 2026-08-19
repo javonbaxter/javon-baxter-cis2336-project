@@ -90,7 +90,7 @@ if (artistForm) {
 
 
         // Get form values
-        const name = document.getElementById("artistName").value.trim();
+        const name = document.getElementById("artist-name").value.trim();
 
         const email = document.getElementById("email").value.trim();
 
@@ -154,7 +154,7 @@ if (artistForm) {
 
             email: email,
 
-            artTitle: document.getElementById("artTitle").value.trim(),
+            artTitle: document.getElementById("art-title").value.trim(),
 
             category: document.getElementById("category").value,
 
